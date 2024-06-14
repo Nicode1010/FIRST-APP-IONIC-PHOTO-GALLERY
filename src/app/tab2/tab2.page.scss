@@ -1,0 +1,27 @@
+/* Estilo para el título en el encabezado */
+ion-title {
+    font-size: 30px; /* Tamaño de fuente grande para el título principal */
+  }
+  
+  /* Estilo para el botón FAB */
+  ion-fab-button {
+    --background: #ffa238; /* Color de fondo del botón */
+  }
+  
+  /* Estilo para las imágenes en la cuadrícula */
+  ion-img {
+    width: 100%; /* Asegura que las imágenes ocupen todo el ancho disponible */
+    height: 100%; /* Ajusta automáticamente la altura según el contenido */
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor sin distorsionarla */
+  }
+  
+  /* Ajuste del margen del contenido principal */
+  ion-content {
+    --ion-safe-area-left: 0px; /* Asegura que el contenido no se solape con los bordes seguros del dispositivo */
+    --ion-safe-area-right: 0px;
+  }
+  
+  /* Ajuste de la posición del botón FAB */
+  ion-fab {
+    margin-bottom: 16px; /* Margen inferior para separar el botón FAB del contenido debajo */
+  }
